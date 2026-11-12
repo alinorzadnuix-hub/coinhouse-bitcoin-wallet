@@ -1,0 +1,22 @@
+Bitcoin Wallet SDK for Unity
+Version: 1.0.0
+Release Date: 2024
+Build: Stable
+
+Features:
+- Wallet creation and restoration
+- MainNet and TestNet support
+- Transaction sending and receiving
+- Balance checking
+- Transaction history
+- Multiple address types
+- Batch operations
+- Complete documentation
+
+Requirements:
+- Unity 2019.4+
+- .NET 4.x
+- NBitcoin
+- Newtonsoft.Json
+
+License: MIT

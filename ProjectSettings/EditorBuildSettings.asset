@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AppLock.unity
+    guid: b2e5990284d00c24ba3668c1e0324a31
+  - enabled: 1
+    path: Assets/Scenes/CreateWallet.unity
+    guid: 279f4ccf336d61a4dac072f091bd2f93
+  - enabled: 1
+    path: Assets/Scenes/RecoverWallet.unity
+    guid: 2c1f7d849d0c05d4f91c9c8f36f096f0
+  - enabled: 1
+    path: Assets/Scenes/TransactionHistory.unity
+    guid: 48289aeb8bf5a67489f655248757b0fb
+  - enabled: 1
+    path: Assets/Scenes/MainWallet.unity
+    guid: 2872f9f7dd024a04abd85943311dd355
+  - enabled: 1
+    path: Assets/Scenes/Mining.unity
+    guid: 3c46480aaf31c4042aa4e2862858a61e
+  - enabled: 1
+    path: Assets/Scenes/AddressLogUI.unity
+    guid: b03a851bdb7c2f84c9f69e394eb40ca5
+  - enabled: 1
+    path: Assets/Scenes/SendReceive.unity
+    guid: c94694fa62f231747871d0531c083284
+  m_configObjects: {}

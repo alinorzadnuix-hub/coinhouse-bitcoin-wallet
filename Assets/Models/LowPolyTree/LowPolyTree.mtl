@@ -1,0 +1,21 @@
+# Low Poly Tree Materials
+newmtl Mat_Trunk
+Kd 0.36 0.22 0.12
+Ka 0.1 0.1 0.1
+Ks 0.05 0.05 0.05
+d 1.0
+illum 2
+
+newmtl Mat_Leaves_Dark
+Kd 0.14 0.45 0.18
+Ka 0.1 0.1 0.1
+Ks 0.05 0.05 0.05
+d 1.0
+illum 2
+
+newmtl Mat_Leaves_Light
+Kd 0.22 0.60 0.24
+Ka 0.1 0.1 0.1
+Ks 0.05 0.05 0.05
+d 1.0
+illum 2

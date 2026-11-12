@@ -1,0 +1,68 @@
+<!--
+    Android Manifest Permissions for Wallet Export/Import
+    ====================================================
+    
+    Add these permissions inside the <manifest> tag in your Unity project's 
+    AndroidManifest.xml file (Plugins/Android/AndroidManifest.xml).
+    
+    If you don't have a custom AndroidManifest.xml yet:
+    1. Go to Unity → Edit → Project Settings → Player → Publishing Settings
+    2. Check "Custom Main Manifest"
+    3. Unity will create: Assets/Plugins/Android/AndroidManifest.xml
+    4. Add the permissions listed below inside the <manifest> tag
+-->
+
+<!-- ==================== PERMISSIONS ==================== -->
+
+<!-- Required for Android 9 and below: Read/Write to external storage (Downloads folder) -->
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+<!-- Required for Android 11+ (API 30+): Broad file access -->
+<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+<!-- ==================== APPLICATION TAG ==================== -->
+<!--
+    Inside your <application> tag, add these attributes for Android 10 compatibility:
+    
+    android:requestLegacyExternalStorage="true"
+    
+    Example:
+    <application
+        android:requestLegacyExternalStorage="true"
+        ... other attributes ...>
+    </application>
+-->
+
+
+<!-- ==================== FULL EXAMPLE ==================== -->
+<!--
+    Here's a complete example AndroidManifest.xml for reference:
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yourcompany.bitcoinwallet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name">
+
+        <activity android:name="com.unity3d.player.UnityPlayerActivity"
+            android:theme="@style/UnityThemeSelector">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
+-->
