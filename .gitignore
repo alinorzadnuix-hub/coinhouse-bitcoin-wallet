@@ -78,6 +78,7 @@ test_runner/obj/
 # Logs
 *.log
 *.log.meta
+upload_to_github.bat
 
 # ==========================================
 # CRITICAL SECURITY: Wallet & Secrets (NEVER COMMIT)
