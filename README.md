@@ -33,13 +33,13 @@ This repository stands as a pioneering benchmark in autonomous software engineer
 
 ## 📥 Downloads & Releases
 
-Pre-compiled binary packages are available directly via [GitHub Releases](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases):
+Pre-compiled binary packages are available directly via [GitHub Releases](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases/tag/v1.0.0):
 
-| Package | Platform | Network | Description | Download |
+| Package | Platform | Network | Description | Direct Download |
 | :--- | :--- | :--- | :--- | :---: |
-| **CoinHouse Desktop** | Windows (x64) | **MainNet** | Standalone portable executable for real Bitcoin transactions. | [Download Release](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases) |
-| **CoinHouse TestNet Desktop** | Windows (x64) | **TestNet** | Risk-free sandboxed environment with built-in testnet faucet tools. | [Download Release](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases) |
-| **CoinHouse Mobile** | Android (APK) | **TestNet / MainNet** | Mobile APK supporting native live QR camera scanning & notifications. | [Download Release](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases) |
+| **CoinHouse Desktop** | Windows (x64) | **MainNet** | Standalone portable executable for real Bitcoin transactions. | [⬇️ **Download MainNet .zip**](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases/download/v1.0.0/CoinHouse-Windows-MainNet-v1.0.0.zip) |
+| **CoinHouse TestNet Desktop** | Windows (x64) | **TestNet** | Risk-free sandboxed environment with built-in testnet faucet tools. | [⬇️ **Download TestNet .zip**](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases/download/v1.0.0/CoinHouse-Windows-TestNet-v1.0.0.zip) |
+| **CoinHouse Mobile** | Android (APK) | **TestNet / MainNet** | Mobile APK supporting native live QR camera scanning & notifications. | [📦 **View Releases**](https://github.com/alinorzadnuix-hub/coinhouse-bitcoin-wallet/releases) |
 
 > 💡 **Recommendation**: If you are exploring CoinHouse for the first time, download the **TestNet build** to test sending, receiving, and address generation with zero financial risk.
 
